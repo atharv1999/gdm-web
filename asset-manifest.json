@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.css": "/gdm-web/static/css/main.ae8d80b4.css",
-    "main.js": "/gdm-web/static/js/main.9a3d2e2d.js",
+    "main.css": "/gdm-web/static/css/main.0a4c0d42.css",
+    "main.js": "/gdm-web/static/js/main.d0bf11de.js",
     "static/media/office.jpg": "/gdm-web/static/media/office.60d59a12cf5b732047e1.jpg",
+    "static/media/person-laptop.jpg": "/gdm-web/static/media/person-laptop.adc9dbe6481c20081ecc.jpg",
     "static/media/pexels-alex-green-5699456.jpg": "/gdm-web/static/media/pexels-alex-green-5699456.efbd47271b10e69103a9.jpg",
-    "static/media/pexels-fauxels-3183186.jpg": "/gdm-web/static/media/pexels-fauxels-3183186.f4ea79eff536581ff2a4.jpg",
+    "static/media/people-advisory.jpg": "/gdm-web/static/media/people-advisory.f4ea79eff536581ff2a4.jpg",
+    "static/media/people-work.jpg": "/gdm-web/static/media/people-work.dd1f8f8da35bfb6374f6.jpg",
     "static/media/home.jpg": "/gdm-web/static/media/home.1bbfc6d8beba26574d47.jpg",
+    "static/media/person-calculator.jpg": "/gdm-web/static/media/person-calculator.192efef4057274c42d7a.jpg",
     "static/media/5124556.jpg": "/gdm-web/static/media/5124556.13b798d6ec4d62e3e4d2.jpg",
     "static/media/GDM & Co round.png": "/gdm-web/static/media/GDM & Co round.719a5e2577b6979fd34a.png",
     "static/media/search.png": "/gdm-web/static/media/search.8861b03fdd1bf911620d.png",
@@ -18,11 +21,11 @@
     "static/media/linkedin.png": "/gdm-web/static/media/linkedin.032cf8a63be2f0f4d425.png",
     "static/media/growth.png": "/gdm-web/static/media/growth.def2484a499c98f5b3e7.png",
     "index.html": "/gdm-web/index.html",
-    "main.ae8d80b4.css.map": "/gdm-web/static/css/main.ae8d80b4.css.map",
-    "main.9a3d2e2d.js.map": "/gdm-web/static/js/main.9a3d2e2d.js.map"
+    "main.0a4c0d42.css.map": "/gdm-web/static/css/main.0a4c0d42.css.map",
+    "main.d0bf11de.js.map": "/gdm-web/static/js/main.d0bf11de.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae8d80b4.css",
-    "static/js/main.9a3d2e2d.js"
+    "static/css/main.0a4c0d42.css",
+    "static/js/main.d0bf11de.js"
   ]
 }
