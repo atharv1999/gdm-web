@@ -2,6 +2,7 @@ import React from 'react'
 import { Button, Col, Row } from 'react-bootstrap'
 import { IoMdMail } from 'react-icons/io'
 import { FaLocationArrow, FaLinkedinIn, FaFacebookF, FaTwitter, FaPhoneAlt } from 'react-icons/fa'
+import { Link } from 'react-router-dom'
 
 
 const Footer = () => {
@@ -13,10 +14,10 @@ const Footer = () => {
 
                 <Col md={6} sm={12}>
                     <Row>
-                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><a style={{ color:'white'}} href='#home' className="nav-link p-0">About us</a></h3></Col>
-                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><a style={{ color:'white'}} href='#home' className="nav-link p-0">Career</a></h3></Col>
-                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><a style={{ color:'white'}} href='#home' className="nav-link p-0">Contact</a></h3></Col>
-                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><a style={{ color:'white'}} href='#home' className="nav-link p-0">Services</a></h3></Col>
+                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><Link style={{ color:'white'}} to='/' className="nav-link p-0">About us</Link></h3></Col>
+                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><Link style={{ color:'white'}} to='/' className="nav-link p-0">Career</Link></h3></Col>
+                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><Link style={{ color:'white'}} to='/contact' className="nav-link p-0">Contact</Link></h3></Col>
+                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><Link style={{ color:'white'}} to='/' className="nav-link p-0">Services</Link></h3></Col>
 
                         <Col md={6} style={{marginTop:'50px'}} sm={12}>
                             <h4 style={{color:'white'}}>Gaurav D. Murkute & Co.</h4>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import '../stylesheets/navbar.css'
 
 const NavbarComp = () => {
@@ -10,21 +11,20 @@ const NavbarComp = () => {
     <div>
         <Navbar style={{fontSize:'20px'}} fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand style={{fontSize:'25px'}} href="#home">Gaurav D. Murkute<Navbar.Text href="#home" style={{fontSize: '12px', marginLeft:'5px'}}> & Co.</Navbar.Text></Navbar.Brand>
+            <Navbar.Brand style={{fontSize:'25px'}}  as={Link} to='/'>Gaurav D. Murkute<Navbar.Text href="#home" style={{fontSize: '12px', marginLeft:'5px'}}> & Co.</Navbar.Text></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ms-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">About</Nav.Link>
+            <Nav.Link as={Link} to='/'>Home</Nav.Link>
+            <Nav.Link as={Link} to='/'>About</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown" menuVariant='dark'>
-                <NavDropdown.Item href="#action/3.1">Accounting and Business Support</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">Assuarance</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">Advisory & Consultancy</NavDropdown.Item>
-                {/* <NavDropdown.Divider /> */}
-                <NavDropdown.Item href="#action/3.4">Tax & Regulatory</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/audit'>AUDIT AND ASSURANCE</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/taxation'>TAXATION</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/accounting'>ACCOUNTING AND BUSINESS SUPPORT</NavDropdown.Item>
+                <NavDropdown.Item as={Link} to='/advisory'>TRANSACTION ADVISORY</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="#careers">Careers</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link as={Link} to='/'>Careers</Nav.Link>
+            <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>
             </Container>

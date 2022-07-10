@@ -6,6 +6,7 @@ import '../components/universal.css'
 import home from '../assets/images/home.jpg'
 import office from '../assets/images/office.jpg'
 import Deliver from '../components/Deliver'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
 
