@@ -58,7 +58,7 @@ const Deliver = () => {
             </Row>
             <Row>
                 <Col></Col>
-                <Col style={{textAlign:'center'}}>
+                <Col sm={12} style={{textAlign:'center'}}>
                 <Button as={Link} to='/contact' style={{fontSize:'15px', borderRadius:'0',marginTop:'20px', marginBottom:'50px' }} size='lg' variant="dark">GET IN TOUCH</Button>{' '}
                 </Col>
                 <Col></Col>

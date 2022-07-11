@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState, useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import { Button, Col, Container, Form, Row } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { toast } from 'react-toastify'
@@ -8,6 +9,8 @@ import '../stylesheets/audit.css'
 
 const Contact = () => {
 
+    const refForm = useRef();
+
     const [name, setName] = useState('')
     const [companyName, setCompanyName] = useState('')
     const [email, setEmail] = useState('')
@@ -16,6 +19,23 @@ const Contact = () => {
     const [phone, setPhone] = useState('')
   
     const navigate = useNavigate()
+
+    const sendEmail = () => {
+      emailjs.sendForm(
+        'service_8zddaw8',
+        'template_kugzyls',
+        refForm.current,
+        'HdBIzvaMv2Ruv4OAy'
+    ).then(
+        () => {
+            alert('Message succesfully sent!')
+            window.location.reload(false)
+        },
+        () =>{
+            alert("Failed to send the message, please try again.")
+        }
+    )
+    }
 
     const submit = () => {
         if(name.length === 0){
@@ -29,6 +49,9 @@ const Contact = () => {
         }else if(message.length === 0){
           toast.error("Please enter a message!")
         }else{
+
+          sendEmail();
+
           toast.success("Submitted Successfully!")
           navigate('/')
         }
@@ -51,6 +74,7 @@ const Contact = () => {
         <Row>
             <Row style={{marginTop:'50px'}}>
             <Col md={6} sm={12}>
+                  <Form ref={refForm}>
                         <Form.Group className="mb-3" controlId="formBasicName">
                             <Form.Label>Name*</Form.Label>
                             <Form.Control onChange={(event) => {
@@ -86,7 +110,8 @@ const Contact = () => {
                             <Form.Control as='textarea' onChange={(event) => {
                               setMessage(event.target.value)
                             }}  placeholder="Enter your message" />
-                        </Form.Group> 
+                        </Form.Group>
+                    </Form> 
             </Col>
             <Col md={6} sm={12}>    
             </Col>

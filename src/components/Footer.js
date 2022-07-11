@@ -1,8 +1,9 @@
 import React from 'react'
-import { Button, Col, Row } from 'react-bootstrap'
+import { Button, Col, NavDropdown, Row } from 'react-bootstrap'
 import { IoMdMail } from 'react-icons/io'
 import { FaLocationArrow, FaLinkedinIn, FaFacebookF, FaTwitter, FaPhoneAlt } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import '../stylesheets/footer.css'
 
 
 const Footer = () => {
@@ -15,9 +16,16 @@ const Footer = () => {
                 <Col md={6} sm={12}>
                     <Row>
                         <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><Link style={{ color:'white'}} to='/' className="nav-link p-0">About us</Link></h3></Col>
-                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><Link style={{ color:'white'}} to='/' className="nav-link p-0">Career</Link></h3></Col>
+                        <Col md={3} sm={12}><h3 style={{fontSize:'25px', color:'white'}}>
+                        <NavDropdown className='footer-dropdown' title="Services" id="basic-nav-dropdown2" menuVariant='dark'>
+                            <NavDropdown.Item as={Link} to='/audit'>AUDIT AND ASSURANCE</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to='/taxation'>TAXATION</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to='/accounting'>ACCOUNTING AND BUSINESS SUPPORT</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to='/advisory'>TRANSACTION ADVISORY</NavDropdown.Item>
+                        </NavDropdown>
+                        </h3></Col>
+                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><Link style={{ color:'white'}} to='/' className="nav-link p-0">Careers</Link></h3></Col>
                         <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><Link style={{ color:'white'}} to='/contact' className="nav-link p-0">Contact</Link></h3></Col>
-                        <Col md={3} sm={12}><h3 style={{fontSize:'25px'}}><Link style={{ color:'white'}} to='/' className="nav-link p-0">Services</Link></h3></Col>
 
                         <Col md={6} style={{marginTop:'50px'}} sm={12}>
                             <h4 style={{color:'white'}}>Gaurav D. Murkute & Co.</h4>
