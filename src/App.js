@@ -8,6 +8,7 @@ import Taxation from './pages/services/Taxation';
 import Accounting from './pages/services/Accounting';
 import Advisory from './pages/services/Advisory';
 import Contact from './pages/Contact';
+import Careers from './pages/Careers';
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/careers" element={<Careers />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/audit" element={<Audit />} />
           <Route path="/taxation" element={<Taxation />} />

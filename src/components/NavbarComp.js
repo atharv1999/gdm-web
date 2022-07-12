@@ -23,7 +23,7 @@ const NavbarComp = () => {
                 <NavDropdown.Item as={Link} to='/accounting'>ACCOUNTING AND BUSINESS SUPPORT</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to='/advisory'>TRANSACTION ADVISORY</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to='/'>Careers</Nav.Link>
+            <Nav.Link as={Link} to='/careers'>Careers</Nav.Link>
             <Nav.Link as={Link} to='/contact'>Contact</Nav.Link>
             </Nav>
             </Navbar.Collapse>

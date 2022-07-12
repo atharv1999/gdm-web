@@ -22,17 +22,17 @@ const Contact = () => {
 
     const sendEmail = () => {
       emailjs.sendForm(
-        'service_8zddaw8',
-        'template_kugzyls',
+        'service_xaf860a',
+        'template_dxdzqcq',
         refForm.current,
-        'HdBIzvaMv2Ruv4OAy'
+        'bFjBQZTv1rdYmvISq'
     ).then(
         () => {
-            alert('Message succesfully sent!')
-            window.location.reload(false)
+            toast.success('Message succesfully sent!')
+            navigate('/')
         },
         () =>{
-            alert("Failed to send the message, please try again.")
+            toast.error("Failed to send the message, please try again.")
         }
     )
     }
@@ -49,11 +49,7 @@ const Contact = () => {
         }else if(message.length === 0){
           toast.error("Please enter a message!")
         }else{
-
           sendEmail();
-
-          toast.success("Submitted Successfully!")
-          navigate('/')
         }
       }
 
@@ -64,7 +60,7 @@ const Contact = () => {
     <div className='top' style={{backgroundColor:'white', paddingBottom:'30px'}}>
         <Container>
             <Row>
-                <h1 style={{fontSize:'60px', fontWeight:'bold'}}>Get in touch</h1>
+                <h1 style={{fontSize:'60px', fontWeight:'bold'}}>Get in touch.</h1>
                 <h3>A step towards success</h3>
             </Row>
         </Container>
@@ -79,37 +75,37 @@ const Contact = () => {
                             <Form.Label>Name*</Form.Label>
                             <Form.Control onChange={(event) => {
                               setName(event.target.value)
-                            }} type="text" placeholder="Your Name" />
+                            }} type="text" name='name' placeholder="Your Name" />
                         </Form.Group> 
                         <Form.Group className="mb-3" controlId="formBasicCompany">
                             <Form.Label>Company Name</Form.Label>
                             <Form.Control onChange={(event) => {
                               setCompanyName(event.target.value)
-                            }} type="text" placeholder="Company Name" />
+                            }} type="text" name='companyName' placeholder="Company Name" />
                         </Form.Group> 
                         <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email*</Form.Label>
                             <Form.Control onChange={(event) => {
                               setEmail(event.target.value)
-                            }} type="text" placeholder="Your email address" />
+                            }} type="text" name='email' placeholder="Your email address" />
                         </Form.Group> 
                         <Form.Group className="mb-3" controlId="formBasicPhone">
                             <Form.Label>Mobile Number*</Form.Label>
                             <Form.Control onChange={(event) => {
                               setPhone(event.target.value)
-                            }} type="text" placeholder="Mobile Number" />
+                            }} type="text" name='mobileNumber' placeholder="Mobile Number" />
                         </Form.Group> 
                         <Form.Group className="mb-3" controlId="formBasicCity">
                             <Form.Label>City/Town*</Form.Label>
                             <Form.Control onChange={(event) => {
                               setCity(event.target.value)
-                            }} type="text" placeholder="City/Town" />
+                            }} type="text" name='city' placeholder="City/Town" />
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicMessage">
                             <Form.Label>Message*</Form.Label>
                             <Form.Control as='textarea' onChange={(event) => {
                               setMessage(event.target.value)
-                            }}  placeholder="Enter your message" />
+                            }}  name='message' placeholder="Enter your message" />
                         </Form.Group>
                     </Form> 
             </Col>
