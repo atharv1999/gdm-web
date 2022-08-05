@@ -71,8 +71,7 @@ const Footer = () => {
             <Row>
                 <Col></Col>
                 <Col style={{textAlign:'center'}}>
-                    <h4 style={{color: '#AAA'}}>Developed by : </h4>
-                    <h4 style={{color: '#AAA'}}>Atharv Arote</h4>
+                    <h4 style={{color: '#AAA'}}>Developed by : Atharv A. Arote</h4>
                     <h6><a style={{textDecoration:'none', color:'#AAA'}} href='mailto:atharvarote@gmail.com'>atharvarote@gmail.com</a></h6>
                 </Col>
                 <Col></Col>
