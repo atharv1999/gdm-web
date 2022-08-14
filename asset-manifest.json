@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/gdm-web/static/css/main.913c23a8.css",
-    "main.js": "/gdm-web/static/js/main.685418e6.js",
+    "main.js": "/gdm-web/static/js/main.67bfb18e.js",
     "static/media/office.jpg": "/gdm-web/static/media/office.60d59a12cf5b732047e1.jpg",
     "static/media/person-laptop.jpg": "/gdm-web/static/media/person-laptop.adc9dbe6481c20081ecc.jpg",
     "static/media/pexels-alex-green-5699456.jpg": "/gdm-web/static/media/pexels-alex-green-5699456.efbd47271b10e69103a9.jpg",
@@ -16,6 +16,7 @@
     "static/media/hgm_final.png": "/gdm-web/static/media/hgm_final.b8c7c8d1356518962cba.png",
     "static/media/GDM & Co round.png": "/gdm-web/static/media/GDM & Co round.719a5e2577b6979fd34a.png",
     "static/media/resolved.png": "/gdm-web/static/media/resolved.27667a27b2d8283a1f1f.png",
+    "static/media/reviews.jpeg": "/gdm-web/static/media/reviews.9fc14a0ce0ce8b6baeb1.jpeg",
     "static/media/search.png": "/gdm-web/static/media/search.8861b03fdd1bf911620d.png",
     "static/media/9060CA_logo_icai.jpg": "/gdm-web/static/media/9060CA_logo_icai.cd441e23a5e8e4efbcbc.jpg",
     "static/media/accounts.png": "/gdm-web/static/media/accounts.4f720cab96338e42e61b.png",
@@ -28,10 +29,10 @@
     "static/media/growth.png": "/gdm-web/static/media/growth.def2484a499c98f5b3e7.png",
     "index.html": "/gdm-web/index.html",
     "main.913c23a8.css.map": "/gdm-web/static/css/main.913c23a8.css.map",
-    "main.685418e6.js.map": "/gdm-web/static/js/main.685418e6.js.map"
+    "main.67bfb18e.js.map": "/gdm-web/static/js/main.67bfb18e.js.map"
   },
   "entrypoints": [
     "static/css/main.913c23a8.css",
-    "static/js/main.685418e6.js"
+    "static/js/main.67bfb18e.js"
   ]
 }
