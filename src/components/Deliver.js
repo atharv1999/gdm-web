@@ -25,7 +25,7 @@ const Deliver = () => {
         },
         {
             id:4,
-            imgUrl:'accounts.png',
+            imgUrl:'reviews.jpeg',
             title:'Reviews and Recommendations',
             description:'Assisting with best practices and accounting & financial reporting challenges, as well as complying with relevant accounting standards.'
         },
