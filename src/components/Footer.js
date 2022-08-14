@@ -36,7 +36,7 @@ const Footer = () => {
                     </Row>
                     <hr style={{color:'white'}} />
                     <Row style={{marginBottom:'20px'}}>
-                        <Col xs={1}><a href='https://www.linkedin.com'><Button style={{ border:'none'}} size='lg' variant="outline-light"><FaLinkedinIn /></Button>{' '}</a></Col>
+                        <Col xs={1}><a href='https://www.linkedin.com/company/hgcollp/'><Button style={{ border:'none'}} size='lg' variant="outline-light"><FaLinkedinIn /></Button>{' '}</a></Col>
                         {/* <Col xs={1}><a href='https://www.facebook.com'><Button style={{ border:'none'}} size='lg' variant="outline-light"><FaFacebookF /></Button>{' '}</a></Col>
                         <Col xs={1}><a href='https://www.twitter.com'><Button style={{ border:'none'}} size='lg' variant="outline-light"><FaTwitter /></Button>{' '}</a></Col>  */}
                     </Row>
