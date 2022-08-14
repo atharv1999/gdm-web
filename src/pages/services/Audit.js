@@ -14,7 +14,7 @@ const Audit = () => {
             <Container>
                 <Row>
                     <h1 style={{fontSize:'60px', fontWeight:'bold'}}>Audit & Assurance</h1>
-                    <h3>Aspire with assurance</h3>
+                    {/* <h3>Aspire with assurance</h3> */}
                 </Row>
             </Container>
         </div>
@@ -23,13 +23,13 @@ const Audit = () => {
             <Row>
                 <Row style={{marginTop:'50px'}}>
                 <Col md={6} sm={12}>
-                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px'}}>
+                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
                         The purpose of an audit goes far beyond the numbers. It’s about attesting to accomplishments and challenges, helping to assure strong foundations for future aspirations. As your partner in change, we illuminate the what, how, and why, so you're always prepared to act.
                         </p>
-                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px'}}>
+                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
                         All our audits begin with a full assessment and understanding of the client's business and operations. This allows us to provide constructive suggestions for improving business strategies, management information and controls. Our examinations are based on statutory requirements and local auditing practices and our procedures comply with the Standards on Auditing.
                         </p>
-                        <p style={{marginTop:'50px',marginBottom:'50px',fontSize:'22px',paddingRight:'50px'}}>
+                        <p style={{marginTop:'50px',marginBottom:'50px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
                             Explore tax and regulatory services
                         </p>
                         <ul style={{marginBottom:'50px', fontSize:'22px'}}>

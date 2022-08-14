@@ -11,12 +11,18 @@ const NavbarComp = () => {
     <div>
         <Navbar style={{fontSize:'20px'}} fixed="top" collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-            <Navbar.Brand style={{fontSize:'25px'}}  as={Link} to='/'>Gaurav D. Murkute<Navbar.Text href="#home" style={{fontSize: '12px', marginLeft:'5px'}}> & Co.</Navbar.Text></Navbar.Brand>
+            <Navbar.Brand style={{fontSize:'25px', width:'395px'}}  as={Link} to='/'><img
+              alt=""
+              style={{marginTop:'12px'}}
+              src={require('../assets/images/hgm-final.png')}
+              width="50%"
+              className="d-inline-block align-top"
+            /></Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-            <Nav className="ms-auto">
+            <Navbar.Collapse id="responsive-navbar-nav" style={{}}>
+            <Nav pullRight className="ms-auto">
             <Nav.Link as={Link} to='/'>Home</Nav.Link>
-            <Nav.Link as={Link} to='/'>About</Nav.Link>
+            <Nav.Link as={Link} to='/about'>About Us</Nav.Link>
             <NavDropdown title="Services" id="basic-nav-dropdown" menuVariant='dark'>
                 <NavDropdown.Item as={Link} to='/audit'>AUDIT AND ASSURANCE</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to='/taxation'>TAXATION</NavDropdown.Item>

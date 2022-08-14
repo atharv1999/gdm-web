@@ -42,7 +42,7 @@ const HomePage = () => {
                 <Row style={{marginTop:'120px'}}>
                 <Col md={6} sm={12}>
                         <h1 style={{color:'white',  fontSize:'55px', fontFamily:'Varela Round, sans-serif'}}>
-                        Practical support for businesses of all sizes, at every state of growth
+                        Practical support for businesses of all sizes, at every stage of growth
                         </h1>
                         <p style={{marginTop:'30px',marginBottom:'10px',color:'white', fontSize:'22px'}}>
                         It's not just the biggest businesses that benefit from strategic advice, modern accounting technology and efficient financial functions. In the age of cloud accountancy, why shouldn't SME's take advantage too?

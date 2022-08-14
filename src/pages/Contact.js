@@ -7,6 +7,9 @@ import Footer from '../components/Footer'
 import NavbarComp from '../components/NavbarComp'
 import '../stylesheets/audit.css'
 
+import { IoMdMail } from 'react-icons/io'
+import { FaLocationArrow, FaLinkedinIn, FaFacebookF, FaTwitter, FaPhoneAlt } from 'react-icons/fa'
+
 const Contact = () => {
 
     const refForm = useRef();
@@ -103,13 +106,72 @@ const Contact = () => {
                         </Form.Group>
                         <Form.Group className="mb-3" controlId="formBasicMessage">
                             <Form.Label>Message*</Form.Label>
-                            <Form.Control as='textarea' onChange={(event) => {
+                            <Form.Control as='textarea' style={{height:'150px'}} onChange={(event) => {
                               setMessage(event.target.value)
                             }}  name='message' placeholder="Enter your message" />
                         </Form.Group>
                     </Form> 
             </Col>
-            <Col md={6} sm={12}>    
+            <Col md={3} sm={12}></Col>
+            <Col md={3} sm={12}>
+                <h1 style={{marginBottom:'25px'}}>Our Office</h1>
+                <Row>
+                  <Col sm={12}>
+                    <ul class="nav flex-column">
+                        <li style={{fontSize:'25px',
+                            fontWeight:'400'}} class="nav-item mb-2">Pune</li>
+                        <li style={{color:'grey',
+                            fontWeight:'400'}} class="nav-item mb-2"><FaLocationArrow /> : Office-3, Aditya Centeegra, </li>
+                        <li style={{color:'grey',
+                            fontWeight:'400'}} class="nav-item mb-2">Dnyaneshwar Paduka Chowk, </li>
+                        <li style={{color:'grey',
+                            fontWeight:'400'}} class="nav-item mb-2">FC Road, Pune.</li>
+                        <li>
+                        
+                        </li>
+                        {/* <li style={{color:'grey',
+                            fontWeight:'400'}}>
+                            <IoMdMail    /> : <a style={{ color:'grey', textDecoration:'none'}} href='mailto:gauravdmurkute@gmail.com'>info@hgmllp.com</a>
+                        </li>
+                        <li style={{color:'grey',
+                            fontWeight:'400'}}>
+                            <FaPhoneAlt /> : +918779642945
+                        </li> */}
+                    </ul>
+                  </Col>
+                </Row>
+                <Row>
+                <Col sm={12}>
+                    <ul class="nav flex-column">
+                        <li style={{fontSize:'25px',
+                            fontWeight:'400'}} class="nav-item mb-2">Nashik</li>
+                        <li style={{color:'grey',
+                            fontWeight:'400'}} class="nav-item mb-2"><FaLocationArrow /> : 11, Aniket resi., Savarkar</li>
+                        <li style={{color:'grey',
+                            fontWeight:'400'}} class="nav-item mb-2">Nagar, Gangapur Road, </li>
+                        <li style={{color:'grey',
+                            fontWeight:'400'}} class="nav-item mb-2">Makhmalabaad,</li>
+                        <li style={{color:'grey',
+                            fontWeight:'400'}} class="nav-item mb-2">Nashik.</li>
+                        <li>
+                        
+                        </li>
+                        {/* <li style={{color:'grey',
+                            fontWeight:'400'}}>
+                            <IoMdMail    /> : <a style={{ color:'grey', textDecoration:'none'}} href='mailto:gauravdmurkute@gmail.com'>info@hgmllp.com</a>
+                        </li>
+                        <li style={{color:'grey',
+                            fontWeight:'400'}}>
+                            <FaPhoneAlt /> : +918779642945
+                        </li> */}
+                    </ul>
+                  </Col>
+                </Row>
+                <Row>
+                <Col sm={12} style={{marginTop:'20px'}}>
+                <IoMdMail/> : <a style={{ color:'grey', textDecoration:'none'}} href='mailto:gauravdmurkute@gmail.com'>info@hgmllp.com</a>
+                </Col>
+                </Row>
             </Col>
             </Row>
             <Row>

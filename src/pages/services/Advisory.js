@@ -14,7 +14,7 @@ const Advisory = () => {
         <Container>
             <Row>
                 <h1 style={{fontSize:'60px', fontWeight:'bold'}}>Transaction Advisory</h1>
-                <h3>An authentic, ethical and beneficial approach</h3>
+                {/* <h3>An authentic, ethical and beneficial approach</h3> */}
             </Row>
         </Container>
     </div>
@@ -23,7 +23,7 @@ const Advisory = () => {
         <Row>
             <Row style={{marginTop:'50px'}}>
             <Col md={6} sm={12}>
-                    <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px'}}>
+                    <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
                         In an era of heightened economic and industrial growth in diverse sectors, transactions involve high stakes. We believe that a successful transaction is the result of a well thought-out process that requires a thorough understanding of the commercial, regulatory and tax implications. Our focus is to handhold our clients through the entire transaction process. We follow a systematic approach to deliver optimum value to our clients through support at all steps of a transaction.
                     </p>  
             </Col>

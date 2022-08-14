@@ -15,7 +15,7 @@ const Taxation = () => {
             <Container>
                 <Row>
                     <h1 style={{fontSize:'60px', fontWeight:'bold'}}>Taxation</h1>
-                    <h3>Trusted. Transformational. Together.</h3>
+                    {/* <h3>Trusted. Transformational. Together.</h3> */}
                 </Row>
             </Container>
         </div>
@@ -24,15 +24,15 @@ const Taxation = () => {
             <Row>
                 <Row style={{marginTop:'50px'}}>
                 <Col md={6} sm={12}>
-                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px'}}>
+                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
                             Attitudes to tax are changing. Organizations of all sizes are increasingly exposed to new trends in tax regulation.
                         </p>
-                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px'}}>
+                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
                             Enhancing a shareholder's value is a fundamental concept which drives every management effort in the modern business environment. Progressive and bottom-line focussed managements have realized that taxes (both direct and indirect), should be viewed as a dynamic item of cost rather than a passive charge on the profits. Indeed, an effective tax-cost management provides a distinct competitive advantage. In order to accomplish this, appropriate tax strategies need to be identified proactively and implemented surgically.</p>
-                        <p style={{marginTop:'50px',marginBottom:'50px',fontSize:'22px',paddingRight:'50px'}}>
+                        <p style={{marginTop:'50px',marginBottom:'50px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
                             Explore tax and regulatory services
                         </p>
-                        <ul style={{marginBottom:'50px', fontSize:'22px'}}>
+                        <ul style={{marginBottom:'50px', fontSize:'22px',textAlign: 'justify'}}>
                             <li>Tax Compliance and Diagnostic Review</li>
                             <li>Audit under Income Tax Laws and GST</li>
                             <li>Tax Optimization and Transaction Structuring</li>

@@ -14,7 +14,7 @@ const Accounting = () => {
             <Container>
                 <Row>
                     <h1 style={{fontSize:'60px', fontWeight:'bold'}}>Accounting and Business Support</h1>
-                    <h3>High standards ensure positive impact</h3>
+                    {/* <h3>High standards ensure positive impact</h3> */}
                 </Row>
             </Container>
         </div>
@@ -23,7 +23,7 @@ const Accounting = () => {
             <Row>
                 <Row style={{marginTop:'50px'}}>
                 <Col md={6} sm={12}>
-                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px'}}>
+                        <p style={{marginTop:'10px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
                             With the global economy in full swing, it is essential to have timely, reliable, and meaningful financial data available for making informed business decisions. Accounting records and bookkeeping are vital issues for all types of businesses to enable its owners, directors or management to be aware of all transactions conducted by the business and to be able to measure the degree of success of the business as a whole or of a particular aspect of it. In addition, maintaining adequate accounting records is essential for tax purposes. With us, accounting systems can work harder for management every day, boosting business success. Our services are tailored to meet the needs of clients.
                         </p>  
                 </Col>
