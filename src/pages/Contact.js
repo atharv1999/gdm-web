@@ -170,7 +170,7 @@ const Contact = () => {
                   </Col>
                 </Row>
                 <Row>
-                <Col sm={12} style={{marginTop:'20px'}}>
+                <Col sm={12} style={{marginTop:'20px', marginBottom:'50px'}}>
                 <IoMdMail/> : <a style={{ color:'grey', textDecoration:'none'}} href='mailto:gauravdmurkute@gmail.com'>info@hgmllp.com</a>
                 </Col>
                 </Row>
