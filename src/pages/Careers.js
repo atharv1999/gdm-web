@@ -22,7 +22,7 @@ const Careers = () => {
                         Many ideas grow better when transplanted into another mind than the one where they sprang up.
                         </p> 
                         <p style={{marginTop:'60px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
-                        Our goal at GDM & Co is to build a team of individuals with competence, integrity, a passion for excellence, a desire to learn, a willingness to work hard, and more importantly, deep respect for their own commitments. A healthy work ethic and meritocracy, which rewards superior performance faster than expected, will reward them in return. GDM & Co offers a challenging, stimulating and professional work environment where you will be an integral part of the team. We offer an exciting opportunity for you to grow on both a professional and personal level.
+                        Our goal at HGM & Co LLP is to build a team of individuals with competence, integrity, a passion for excellence, a desire to learn, a willingness to work hard, and more importantly, deep respect for their own commitments. A healthy work ethic and meritocracy, which rewards superior performance faster than expected, will reward them in return. HGM & Co LLP offers a challenging, stimulating and professional work environment where you will be an integral part of the team. We offer an exciting opportunity for you to grow on both a professional and personal level.
                         </p> 
                         <p style={{marginTop:'120px',marginBottom:'30px',fontSize:'22px',paddingRight:'50px',textAlign: 'justify'}}>
                         Send us your CV at <a style={{  color:'black'}} href='mailto:careers@hgmcollp.com'>careers@hgmcollp.com</a>
