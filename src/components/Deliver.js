@@ -7,39 +7,39 @@ const Deliver = () => {
     const deliverables = [
         {
             id:1,
-            imgUrl:'problem-solving.png',
-            title:'Resolving complex issues',
-            description:'Solutions to resolve complex strategic, tax and operational issues covering all sectors including manufacturing, mining, services and financial sectors.'
+            imgUrl:'caution.png',
+            title:'Assessing high risk situations',
+            description:'A risk mitigation plan is developed after identifying areas at high risk.'
         },
         {
             id:2,
-            imgUrl:'search.png',
-            title:'Identifying High Risk',
-            description:'Identification of high-risk areas & advice on risk mitigation.'
+            imgUrl:'skills.png',
+            title:'Methodology for auditing',
+            description:'An audit based on risk identification and resolves problem in a timely manner.'
         },
         {
             id:3,
-            imgUrl:'skills.png',
-            title:'Our Audit Approach',
-            description:'Risk based audit approach leads to timely identification and resolution of issues.'
+            imgUrl:'resolved.png',
+            title:'Resolving complex problems',
+            description:'A wide range of solutions to complex strategic, tax and operational issues for all sectors including manufacturing, real estate and services as well as for the financial sector.'
         },
         {
             id:4,
-            imgUrl:'caution.png',
-            title:'Prevention & Detection',
-            description:'Assessing the requirements for proper documentation as well as prevention and detection of frauds, errors, abuse & leakages.'
+            imgUrl:'accounts.png',
+            title:'Reviews and Recommendations',
+            description:'Assisting with best practices and accounting & financial reporting challenges, as well as complying with relevant accounting standards.'
         },
         {
             id:5,
-            imgUrl:'accounts.png',
-            title:'Best Practices & Reporting',
-            description:'Advising on better practices as well as accounting & financial reporting challenges including compliances to Accounting Standards.'
+            imgUrl:'growth.png',
+            title:'Thinking in terms of future growth',
+            description:'Analyzing future growth synergies and suggesting probable expansion areas.'
         },
         {
             id:6,
-            imgUrl:'growth.png',
-            title:'Future Growth Mindset',
-            description:'Determining areas where synergy is there for future growth & suggest probable future areas for expansion.'
+            imgUrl:'problem-solving.png',
+            title:'Innovation',
+            description:'We promote innovative thinking and reward initiatives to explore best practices and develop comprehensive solutions to business challenges.'
         }
     ]
 

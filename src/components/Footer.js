@@ -31,7 +31,7 @@ const Footer = () => {
                             <h4 style={{color:'white'}}>HGM & Co LLP</h4>
                             
                             <p className="text-muted">© 2022. HGM & Co LLP</p>
-                            <a style={{ color:'grey', textDecoration:'none'}} href='mailto:gauravdmurkute@gmail.com'>info@hgmllp.com</a>
+                            <a style={{ color:'grey', textDecoration:'none'}} href='mailto:info@hgmllp.com'>info@hgmllp.com</a>
                         </Col>
                     </Row>
                     <hr style={{color:'white'}} />
@@ -43,9 +43,8 @@ const Footer = () => {
                 </Col>
                 <Col md={2} sm={12}></Col>
                 <Col md={2} sm={12}>
-                    <h5 style={{color:'white', fontSize:'25px'}}>Office 1</h5>
                     <ul class="nav flex-column">
-                        <li style={{color:'white',
+                        <li style={{color:'white', fontSize:'25px',
                             fontWeight:'400'}} class="nav-item mb-2">Pune</li>
                         <li style={{color:'grey',
                             fontWeight:'400'}} class="nav-item mb-2"><FaLocationArrow /> : Office-3, Aditya</li>
@@ -69,9 +68,8 @@ const Footer = () => {
                     </ul>
                 </Col>
                 <Col md={2} sm={12}>
-                <h5 style={{color:'white', fontSize:'25px'}}>Office 2</h5>
                     <ul class="nav flex-column">
-                        <li style={{color:'white',
+                        <li style={{color:'white', fontSize:'25px',
                             fontWeight:'400'}} class="nav-item mb-2">Nashik</li>
                         <li style={{color:'grey',
                             fontWeight:'400'}} class="nav-item mb-2"><FaLocationArrow /> : 11, Aniket resi., Savarkar</li>

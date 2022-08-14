@@ -31,7 +31,7 @@ const HomePage = () => {
                         <h3 style={{marginBottom:'25px',color:'white'}}>
                         Striving hard to make a positive impact
                         </h3>
-                        <Button style={{fontSize:'15px',marginTop:'25px',marginBottom:'250px', borderRadius:'0'}} size='lg' variant="outline-light">MORE ABOUT US</Button>{' '}
+                        <Button as={Link} to='/about' style={{fontSize:'15px',marginTop:'25px',marginBottom:'250px', borderRadius:'0'}} size='lg' variant="outline-light">MORE ABOUT US</Button>{' '}
                         </div>
                     </Container>
                 </Col>
@@ -56,7 +56,7 @@ const HomePage = () => {
                 </Row>
                 <Row>
                     <Col md={3}>
-                        <Button style={{fontSize:'15px', borderRadius:'0',marginTop:'20px', marginBottom:'50px'}} size='lg' variant="outline-light">READ MORE</Button>{' '}
+                        <Button as={Link} to='/about' style={{fontSize:'15px', borderRadius:'0',marginTop:'20px', marginBottom:'50px'}} size='lg' variant="outline-light">READ MORE</Button>{' '}
                     </Col>
                     <Col>
 

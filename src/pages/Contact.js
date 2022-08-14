@@ -64,7 +64,7 @@ const Contact = () => {
         <Container>
             <Row>
                 <h1 style={{fontSize:'60px', fontWeight:'bold'}}>Get in touch.</h1>
-                <h3>A step towards success</h3>
+                {/* <h3>A step towards success</h3> */}
             </Row>
         </Container>
     </div>
@@ -171,7 +171,7 @@ const Contact = () => {
                 </Row>
                 <Row>
                 <Col sm={12} style={{marginTop:'20px', marginBottom:'50px'}}>
-                <IoMdMail/> : <a style={{ color:'grey', textDecoration:'none'}} href='mailto:gauravdmurkute@gmail.com'>info@hgmllp.com</a>
+                <IoMdMail/> : <a style={{ color:'grey', textDecoration:'none'}} href='mailto:info@hgmllp.com'>info@hgmllp.com</a>
                 </Col>
                 </Row>
             </Col>

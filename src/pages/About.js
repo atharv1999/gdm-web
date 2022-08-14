@@ -17,7 +17,7 @@ const About = () => {
             <Container>
                 <Row>
                     <Col sm={12}>
-                        <h1 style={{fontSize:'60px', fontWeight:'bold', textAlign:'center'}}>Our Story.</h1>
+                        <h1 style={{fontSize:'60px', fontWeight:'bold', textAlign:'center'}}>Our Story</h1>
                         <p style={{marginTop:'30px',marginBottom:'100px',fontSize:'20px',paddingRight:'50px',textAlign: 'justify'}}>Every great journey begins with a small step. We started our journey in the year 2022 under the strong leadership of Gaurav Murkute and Hrishikesh Gawali. ​We have offices in the vibrant city of Nashik, as well as in the city of Pune, known for its rich cultural heritage while having a cosmopolitan edge fueled by its thriving IT industry. ​As a multidisciplinary firm, we hire the skillful and best people with specializations that fit the firm's multidisciplinary services. ​We focus on auditing, taxation, financial advisory, due diligence, and management consulting as our core competencies. With HGM & Co LLP, you are assured of expert guidance in all legal, financial, managerial, and administrative facets of business.​ As we look forward to a brighter future, we are even more determined than ever to keep the legacy of faith, cooperation and unity alive!</p>
                     </Col>
                 </Row>
@@ -28,7 +28,7 @@ const About = () => {
                 </Row>
                 <Row>
                     <Col sm={12}>
-                    <h1 style={{fontSize:'60px', fontWeight:'bold', textAlign:'center'}}>Our Vision.</h1>
+                    <h1 style={{fontSize:'60px', fontWeight:'bold', textAlign:'center'}}>Our Vision</h1>
                         <p style={{marginTop:'30px',marginBottom:'100px',fontSize:'20px',paddingRight:'50px',textAlign: 'justify'}}>
                         We strive to establish ourselves as a nationally recognized leader in financial and professional services for high net worth individuals and businesses alike, providing a work environment where staff can thrive and grow in their careers.
                         </p>
@@ -37,7 +37,7 @@ const About = () => {
                 </Row>
                 <Row>
                     <Col sm={12}>
-                    <h1 style={{fontSize:'60px', fontWeight:'bold', textAlign:'center'}}>Our Mission.</h1>
+                    <h1 style={{fontSize:'60px', fontWeight:'bold', textAlign:'center'}}>Our Mission</h1>
                         <p style={{marginTop:'30px',marginBottom:'100px',fontSize:'20px',paddingRight:'50px',textAlign: 'justify'}}>
                         Our mission is to provide our clients with creative solutions that integrate people, processes and technology to facilitate the achievements of their strategic objectives and growth. Developing an enduring business relationship between firm team, partners and clients through trust and loyalty. Create an environment that fosters creative thinking, innovative ideas, develops skills across diverse disciplines and challenges staff to perform at their highest levels.
                         </p>
@@ -45,7 +45,7 @@ const About = () => {
                     </Col>
                 </Row>
                 <Row>
-                    <h1 style={{fontSize:'60px', fontWeight:'bold'}}>Our Leadership.</h1>
+                    <h1 style={{fontSize:'60px', fontWeight:'bold'}}>Our Leadership</h1>
                     {/* <h3>Aspire with assurance</h3> */}
                 </Row>
             </Container>
