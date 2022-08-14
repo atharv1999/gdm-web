@@ -111,7 +111,9 @@ const Contact = () => {
                             }}  name='message' placeholder="Enter your message" />
                         </Form.Group>
                     </Form> 
+                    <Button onClick={submit} style={{fontSize:'15px', borderRadius:'0',marginTop:'20px', marginBottom:'50px'}} size='lg' variant="outline-dark">SUBMIT</Button>{' '}
             </Col>
+            
             <Col md={3} sm={12}></Col>
             <Col md={3} sm={12}>
                 <h1 style={{marginBottom:'25px'}}>Our Office</h1>
@@ -174,14 +176,7 @@ const Contact = () => {
                 </Row>
             </Col>
             </Row>
-            <Row>
-                <Col>
-                    <Button onClick={submit} style={{fontSize:'15px', borderRadius:'0',marginTop:'20px', marginBottom:'50px'}} size='lg' variant="outline-dark">SUBMIT</Button>{' '}
-                </Col>
-                <Col>
-
-                </Col>
-            </Row>
+            
         </Row>
         </Container>
         </div>
